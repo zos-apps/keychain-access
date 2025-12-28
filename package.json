@@ -20,7 +20,21 @@
         "height": 450
       },
       "resizable": true
-    }
+    },
+    "about": "Securely store and manage passwords and certificates.",
+    "help": [
+      "Search for items",
+      "Double-click to view",
+      "Use + to add new items"
+    ],
+    "docs": "https://zos-apps.github.io/keychain-access",
+    "site": "https://github.com/zos-apps/keychain-access",
+    "features": [
+      "Password storage",
+      "Certificate management",
+      "Secure notes",
+      "Key generation"
+    ]
   },
   "scripts": {
     "build": "tsup",
@@ -53,5 +67,13 @@
     "keychain-access",
     "macos",
     "desktop"
-  ]
+  ],
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/zos-apps"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
 }
