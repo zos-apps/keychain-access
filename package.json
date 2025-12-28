@@ -1,5 +1,5 @@
 {
-  "name": "@anthropic/keychain-access",
+  "name": "@zos-apps/keychain-access",
   "version": "1.0.0",
   "type": "module",
   "main": "./dist/index.js",
@@ -11,9 +11,14 @@
     "icon": "🔐",
     "category": "system",
     "description": "Manage passwords and secure notes",
-    "permissions": ["storage.secure"],
+    "permissions": [
+      "storage.secure"
+    ],
     "window": {
-      "defaultSize": { "width": 600, "height": 450 },
+      "defaultSize": {
+        "width": 600,
+        "height": 450
+      },
       "resizable": true
     }
   },
@@ -30,5 +35,23 @@
     "@types/react-dom": "^18.3.0",
     "tsup": "^8.3.5",
     "typescript": "^5.7.2"
-  }
+  },
+  "description": "Manage passwords and secure notes",
+  "homepage": "https://zos-apps.github.io/keychain-access",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zos-apps/keychain-access.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zos-apps/keychain-access/issues"
+  },
+  "author": "Hanzo AI",
+  "license": "MIT",
+  "keywords": [
+    "zos",
+    "app",
+    "keychain-access",
+    "macos",
+    "desktop"
+  ]
 }
