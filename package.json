@@ -34,7 +34,26 @@
       "Certificate management",
       "Secure notes",
       "Key generation"
-    ]
+    ],
+    "screenshots": {
+      "hero": "screenshots/hero.png",
+      "images": [
+        "screenshots/1-main.png",
+        "screenshots/2-feature.png"
+      ]
+    },
+    "downloads": {
+      "web": "https://zos-apps.github.io/keychain-access"
+    },
+    "featured": false,
+    "tags": [
+      "system",
+      "utility",
+      "keychain access"
+    ],
+    "releaseDate": "2024-12-28",
+    "support": "https://github.com/zos-apps/keychain-access/issues",
+    "changelog": "https://github.com/zos-apps/keychain-access/releases"
   },
   "scripts": {
     "build": "tsup",
