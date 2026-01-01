@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 interface KeychainAccessProps {
   onClose: () => void;
@@ -21,7 +21,7 @@ const mockItems: KeychainItem[] = [
   { id: '5', name: 'Development Certificate', type: 'certificate', created: '2024-01-01' },
 ];
 
-const KeychainAccess: React.FC<KeychainAccessProps> = ({ onClose }) => {
+const KeychainAccess: React.FC<KeychainAccessProps> = ({ onClose: _onClose }) => {
   const [items] = useState(mockItems);
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedId, setSelectedId] = useState<string | null>(null);
